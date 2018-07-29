@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+  </head>
+  <body>
+<h1>Listing Relationlists</h1>
+
+
+
+<p><%= @smvlists.count =%></p>
+<table>
+  <thead>
+    <tr>
+      <!--<th>Relationid</th>-->
+      <!--<th>Frommvid</th>-->
+      <th>No</th>
+      <th>サムネイル</th>
+      <th>smvid</th>
+      <th>smvtitle</th>
+      <th>動画URL</th>
+      <!--<th>Totitle</th>-->
+      <th>Updatedate</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% counta = 0 %>
+    <% @smvlists.each do |smvlist| %>
+      <tr>
+        <% counta = counta + 1 %>
+        <td><%= p counta.to_s %></td>
+        <td><img src="http://img1.smv.to//<%= smvlist.smvid %>/animation_00001.jpg"><td>
+        <td><%= smvlist.smvid %></td>
+        <td><%= smvlist.smvtitle %></td>
+        <td><a href=http://smv.to/detail/<%= smvlist.smvid %> target="_blank">Sharemovieで見る</a></td>
+        <td><%= smvlist.updatedate %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+  <%= paginate @smvlists %>
+
+<br>
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<%= form_for(@relationtbl) do |f| %>
+  <% if @relationtbl.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@relationtbl.errors.count, "error") %> prohibited this relationtbl from being saved:</h2>
+
+      <ul>
+      <% @relationtbl.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :relationid %><br>
+    <%= f.text_field :relationid %>
+  </div>
+  <div class="field">
+    <%= f.label :frommvid %><br>
+    <%= f.text_field :frommvid %>
+  </div>
+  <div class="field">
+    <%= f.label :tomvid %><br>
+    <%= f.text_field :tomvid %>
+  </div>
+  <div class="field">
+    <%= f.label :fromtitle %><br>
+    <%= f.text_field :fromtitle %>
+  </div>
+  <div class="field">
+    <%= f.label :totitle %><br>
+    <%= f.text_field :totitle %>
+  </div>
+  <div class="field">
+    <%= f.label :updatedate %><br>
+    <%= f.date_select :updatedate %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

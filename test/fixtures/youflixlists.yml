@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  youflixid: MyString
+  youflixtitle: MyString
+  tags: MyString
+  youflixtime: MyString
+  youflixurl: MyString
+  updatedate: 2018-03-11
+  youflixupdate: MyString
+  explanation: MyText
+
+two:
+  youflixid: MyString
+  youflixtitle: MyString
+  tags: MyString
+  youflixtime: MyString
+  youflixurl: MyString
+  updatedate: 2018-03-11
+  youflixupdate: MyString
+  explanation: MyText

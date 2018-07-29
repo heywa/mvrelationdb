@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Relationid:</strong>
+  <%= @relationlist.relationid.first %>
+</p>
+
+<p>
+  <strong>Frommvid:</strong>
+  <%= @relationlist.frommvid %>
+</p>
+
+<p>
+  <strong>Tomvid:</strong>
+  <%= @relationlist.tomvid %>
+</p>
+
+<p>
+  <strong>Fromtitle:</strong>
+  <%= @relationlist.fromtitle %>
+</p>
+
+<p>
+  <strong>Totitle:</strong>
+  <%= @relationlist.totitle %>
+</p>
+
+<p>
+  <strong>Updatedate:</strong>
+  <%= @relationlist.updatedate %>
+</p>
+
+<%= link_to 'Edit', edit_relationlist_path(@relationlist) %> |
+<%= link_to 'Back', relationlists_path %>

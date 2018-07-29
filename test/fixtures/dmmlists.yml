@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dmmid: MyString
+  dmmtitle: MyString
+  genre: MyString
+  thumburl: MyString
+  afiriurl: MyString
+  sampremovieurl: MyString
+  sampleumageurl: MyString
+  actressname: MyString
+  direcrtorname: MyString
+  instoredate: 2017-10-06
+  updatedate: 2017-10-06
+
+two:
+  dmmid: MyString
+  dmmtitle: MyString
+  genre: MyString
+  thumburl: MyString
+  afiriurl: MyString
+  sampremovieurl: MyString
+  sampleumageurl: MyString
+  actressname: MyString
+  direcrtorname: MyString
+  instoredate: 2017-10-06
+  updatedate: 2017-10-06

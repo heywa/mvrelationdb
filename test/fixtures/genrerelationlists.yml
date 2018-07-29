@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  genrerelationid: MyString
+  keyword: MyString
+  medianame: MyString
+  mvid: MyString
+  posteddate: 2017-12-21 10:40:36
+
+two:
+  genrerelationid: MyString
+  keyword: MyString
+  medianame: MyString
+  mvid: MyString
+  posteddate: 2017-12-21 10:40:36

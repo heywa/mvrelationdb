@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  smvid: MyString
+  smvtitle: MyString
+  tags: MyString
+  smvtime: MyString
+  smvurl: MyString
+  updatedate: 2017-10-06
+
+two:
+  smvid: MyString
+  smvtitle: MyString
+  tags: MyString
+  smvtime: MyString
+  smvurl: MyString
+  updatedate: 2017-10-06

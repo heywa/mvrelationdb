@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dmmid: MyString
+  dmmtitle: MyString
+  series: MyString
+  maker: MyString
+  label: MyString
+  images: MyString
+  genre: MyString
+  thumburl: MyString
+  afiriurl: MyString
+  sampremovieurl: MyString
+  sampleumageurl: MyString
+  actressname: MyString
+  direcrtorname: MyString
+  instoredate: 2018-06-02
+  updatedate: 2018-06-02
+  series: MyString
+  maker: MyString
+  label: MyString
+  images: MyString
+  makerid: MyString
+
+two:
+  dmmid: MyString
+  dmmtitle: MyString
+  series: MyString
+  maker: MyString
+  label: MyString
+  images: MyString
+  genre: MyString
+  thumburl: MyString
+  afiriurl: MyString
+  sampremovieurl: MyString
+  sampleumageurl: MyString
+  actressname: MyString
+  direcrtorname: MyString
+  instoredate: 2018-06-02
+  updatedate: 2018-06-02
+  series: MyString
+  maker: MyString
+  label: MyString
+  images: MyString
+  makerid: MyString

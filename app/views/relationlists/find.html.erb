@@ -1,0 +1,25 @@
+<h1>People#Find</h1>
+<p><%= @msg %></p>
+<table>
+	<%= form_tag(controller: "relationlists", action: "find") do %>
+	<tr><th>FIND</th>
+		<td><%= text_field_tag("find") %></td></tr>
+	<tr><th></th>
+		<td><%= submit_tag("Click") %></td></tr>
+	</tr>
+	<% end %>
+</table>
+<hr>
+<table>
+	<tr>
+		<th>Id</th><th>Name</th><th>Age</th><th>Mail</th>
+	</tr>
+	<% @smvlist.each do |obj| %>
+	<tr>
+		<td><%= obj.smvid %></td>
+		<td><%= obj.smvtitle %></td>
+		<td><%= obj.smvurl %></td>
+		<td><%= obj.explanation %></td>
+	</tr>
+	<% end %>
+</table>

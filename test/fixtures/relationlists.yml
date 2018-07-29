@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  relationid: MyString
+  frommvid: MyString
+  tomvid: MyString
+  fromtitle: MyString
+  totitle: MyString
+  updatedate: 2017-10-15
+
+two:
+  relationid: MyString
+  frommvid: MyString
+  tomvid: MyString
+  fromtitle: MyString
+  totitle: MyString
+  updatedate: 2017-10-15
